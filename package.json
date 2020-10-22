@@ -1,0 +1,32 @@
+{
+  "name": "lithium",
+  "description": "Community branch of Lithium.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "better-sqlite3": "^7.1.1",
+    "discord.js": "^12.3.1",
+    "follow-redirects": "^1.13.0",
+    "fs": "^0.0.2",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.1",
+    "node-gyp": "^7.1.0",
+    "prebuild-install": "^5.3.5",
+    "tar": "^6.0.5"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/ZetaStormy/lithium"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "node",
+    "discord",
+    "bot"
+  ]
+}

@@ -1,32 +1,22 @@
 {
-  "name": "lithium",
-  "description": "Community branch of Lithium.",
-  "main": "index.js",
+  "name": "necrot-moderation",
+  "version": "1.0.0",
+  "description": "A Discord Moderation bot",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "axios": "^0.20.0",
-    "better-sqlite3": "^7.1.1",
-    "discord.js": "^12.3.1",
-    "follow-redirects": "^1.13.0",
-    "fs": "^0.0.2",
-    "ms": "^2.1.2",
-    "node-fetch": "^2.6.1",
-    "node-gyp": "^7.1.0",
-    "prebuild-install": "^5.3.5",
-    "tar": "^6.0.5"
-  },
-  "engines": {
-    "node": "12.x"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "url": "https://github.com/ZetaStormy/lithium"
+    "type": "git",
+    "url": "git+https://github.com/fayercx2931/necrot-moderation.git"
   },
-  "license": "GPL-3.0",
-  "keywords": [
-    "node",
-    "discord",
-    "bot"
-  ]
+  "author": "FAYERCX2931",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fayercx2931/necrot-moderation/issues"
+  },
+  "homepage": "https://github.com/fayercx2931/necrot-moderation#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
 }
